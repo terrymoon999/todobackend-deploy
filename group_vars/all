@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-9604d2f1
+subnet_id: subnet-18654825
+ec2_keypair: contdelivery
+instance_count: 2
+db_subnets:
+  - subnet-18654825
+  - subnet-51eda809
+db_availability_zone: us-east-1d
+db_username: todobackend
